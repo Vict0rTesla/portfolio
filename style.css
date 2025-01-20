@@ -1,5 +1,36 @@
-div {
-    height: 400px;
-    width: 400px;
-    background-color: aquamarine;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1, header ul, header li {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: xx-large;
+    margin: 20px 300px 0px 100px;
+}
+
+header li {
+    font-size: x-large;
+    margin: 10px;
+}
+
+body {
+    background-color: yellow;
+}
+
+#frame {
+    height: fit-content;
+    background-color: white;
+    padding: 20px;
+    margin: 40px 60px;
+    border-radius: 50px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
