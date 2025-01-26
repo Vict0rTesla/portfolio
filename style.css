@@ -2,76 +2,98 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    margin: 0px 10%;
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+.top-bar {
+    height: 15vh;
+    padding-top: 20px;
+    font-size: 30px;
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
+    justify-content: space-evenly;
 }
 
-nav {
+.logo * {
+    font-size: 110%;
+}
+
+.top-bar * {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu ul {
+    list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-h1, h2{
-    font-weight: normal;
+.container .main {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h2 {
-    margin: 2%;    
-}
-
-#content>img {
+.main > img {
     height: 300px;
-    width: 300px;
+    width: auto;
     border-radius: 50%;
 }
 
-#content {
-    height: 300px;
-    width: 700px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-#content>div {
+.container .data {
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-#content div {
-    align-content: center;
+.hello {
+    font-size: 150%;
+    font-weight: 300;
 }
 
-#hello {
-    font-size: 25px;
-    font-weight: normal;
+.name {
+    font-size: 200%;
+    font-weight: 600;
 }
 
-#name {
-    font-size: 30px;
-    font-weight: normal;
+.role {
+    font-size: 250%;
+    font-weight: 400;
+    opacity: 0.5;
 }
 
-#role {
-    font-size: 35px;
-    font-weight: normal;
+.rbtn {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#linkedin, #github {
+.lbtn {
     background-color: white;
-    border: none;
-    padding: 0;
-    cursor: pointer;
+    display: flex;
 }
 
-button > img {
-    height: 50px;
-    width: 50px;
+.lbtn img {
+    height: 40px;
     border-radius: 50%;
-    object-fit: cover;
+}
+
+.lbtn button {
+    display: none;
 }
