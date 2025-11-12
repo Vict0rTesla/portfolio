@@ -1,0 +1,32 @@
+.contact-lists {
+  list-style: none;
+}
+
+.contact-lists a {
+  display: inline-block;
+}
+
+.contact-list i.default {
+  display: block;
+}
+
+.contact-list i.hover {
+  display: none;
+}
+
+.contact-list:hover i.default {
+  display: none;
+}
+
+.contact-list:hover i.hover {
+  display: block;
+}
+
+.contact-list i {
+  color: #e1e2e3;
+  font-size: 2rem;
+}
+
+.contact-list>.fa-phone {
+  font-size: 1.8rem !important;
+}
